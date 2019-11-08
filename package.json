@@ -1,0 +1,23 @@
+{
+  "name": "test-ibm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chatbot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "ibm-watson": "^5.1.0",
+    "jade": "^1.11.0",
+    "nodemailer": "^6.3.1",
+    "promise": "^8.0.3",
+    "q": "^1.5.1"
+  }
+}
