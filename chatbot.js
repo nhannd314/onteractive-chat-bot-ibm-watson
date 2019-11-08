@@ -32,7 +32,7 @@ app.get('/', function(req, res) {
 
 app.post('/doChat', doChat)
 
-var server = app.listen(8080, function() {
+var server = app.listen(process.env.PORT || 8888, function() {
 	console.log('Your server is running')
 })
 

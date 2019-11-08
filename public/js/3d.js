@@ -243,7 +243,7 @@ jQuery(document).ready(function($) {
 		$('#conversationWrap').scrollTop($('#conversationWrap')[0].scrollHeight)
 
 		// ajax send to server
-		$.post('http://localhost:8080/doChat', {
+		$.post('doChat', {
 			text: text,
 			session: session
 		}, function(response, status) {
